@@ -1,0 +1,11 @@
+{
+  "name": "angular-starter",
+  "version": "1.0.0",
+  "description": "An Angular starter application with typescript\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian McGonigle",
+  "license": "ISC"
+}
