@@ -4,6 +4,9 @@
   "description": "An Angular starter application with typescript\"",
   "main": "index.js",
   "scripts": {
+    "start": "concurrently \"npm run watch\" \"npm run serve\"",
+    "watch": "tsc -w",
+    "server": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ian McGonigle",
